@@ -8,7 +8,7 @@ var gulp = require('gulp');
 var filter = require('gulp-check-include');
 
 gulp.src('./src/*.html')
-    .pipe(filter("I love this file")
+    .pipe(filter("I love this file"))
 ```
 Or my use case for optimize render by nunjucks:
 

@@ -2,13 +2,21 @@
   "name": "gulp-check-include",
   "version": "1.0.0",
   "description": "Filter files by content",
+  "keywords": [
+    "content",
+    "include",
+    "gulp",
+    "filter",
+    "text"
+  ],
+  "repository": "blanzh/gulp-check-include",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Andrey Soldatenkov",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "plugin-error": "^1.0.1",
     "through2": "^3.0.0"
   }
